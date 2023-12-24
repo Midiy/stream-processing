@@ -1,0 +1,74 @@
+[
+    {
+        "sensor_name": "First temperature sensor",
+        "sensor_type": "temperature",
+        "distribution": "uniform",
+        "mean": 25,
+        "sd": 5,
+        "produce_every_seconds": 10
+    },
+    {
+        "sensor_name": "Second temperature sensor",
+        "sensor_type": "temperature",
+        "distribution": "uniform",
+        "mean": 25,
+        "sd": 1,
+        "produce_every_seconds": 25
+    },
+    {
+        "sensor_name": "Third temperature sensor",
+        "sensor_type": "temperature",
+        "distribution": "gaussian",
+        "mean": 28,
+        "sd": 2,
+        "produce_every_seconds": 15
+    },
+    {
+        "sensor_name": "First pressure sensor",
+        "sensor_type": "pressure",
+        "distribution": "gaussian",
+        "mean": 750,
+        "sd": 10,
+        "produce_every_seconds": 15
+    },
+    {
+        "sensor_name": "Second pressure sensor",
+        "sensor_type": "pressure",
+        "distribution": "uniform",
+        "mean": 710,
+        "sd": 5,
+        "produce_every_seconds": 30
+    },
+    {
+        "sensor_name": "Third pressure sensor",
+        "sensor_type": "pressure",
+        "distribution": "exponential",
+        "mean": 800,
+        "sd": 800,
+        "produce_every_seconds": 15
+    },
+    {
+        "sensor_name": "First humidity sensor",
+        "sensor_type": "humidity",
+        "distribution": "exponential",
+        "mean": 75,
+        "sd": 75,
+        "produce_every_seconds": 10
+    },
+    {
+        "sensor_name": "Second humidity sensor",
+        "sensor_type": "humidity",
+        "distribution": "uniform",
+        "mean": 70,
+        "sd": 4,
+        "produce_every_seconds": 15
+    },
+    {
+        "sensor_name": "Third humidity sensor",
+        "sensor_type": "humidity",
+        "distribution": "exponential",
+        "mean": 72,
+        "sd": 72,
+        "produce_every_seconds": 40
+    }
+]
